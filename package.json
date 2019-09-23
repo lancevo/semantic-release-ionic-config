@@ -1,0 +1,38 @@
+{
+  "name": "semantic-release-ionic-config",
+  "version": "1.0.0",
+  "description": "Semantic release plugin for updating config.xml version automatically",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint lib index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lancevo/semantic-release-ionic-config"
+  },
+  "author": "Lance Vo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lancevo/semantic-release-ionic-config/issues"
+  },
+  "homepage": "https://github.com/lancevo/semantic-release-ionic-config#readme",
+  "keywords": [
+    "semantic-release",
+    "ionic",
+    "config.xml"
+  ],
+  "dependencies": {
+    "cordova-set-version": "^8.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "peerDependencies": {
+    "semantic-release": ">=11.0.0 <16.0.0"
+  }
+}
