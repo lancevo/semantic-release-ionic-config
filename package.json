@@ -1,6 +1,6 @@
 {
   "name": "semantic-release-ionic-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Semantic release plugin for updating config.xml version automatically",
   "main": "index.js",
   "scripts": {
