@@ -65,7 +65,7 @@ prepare:
 {
   "prepare": [
     [
-      "semantic-release-ado",
+      "semantic-release-ionic-config",
       {
         "filenames": ["config.xml", "config.dev.xml", "config.prod.xml"]
       }
